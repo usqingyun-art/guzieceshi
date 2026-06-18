@@ -1,7 +1,7 @@
 proxy-groups:
   - name: 节点选择
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
-    type: select
+    输入: select
     proxies:
       - 自动选择
       - 台湾节点
@@ -15,16 +15,16 @@ proxy-groups:
   - name: 手动切换
     icon: https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
     include-all: true
-    type: select
+    输入: select
   - name: 自动选择
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
-    type: url-test
+    输入: url-test
     include-all: true
     interval: 300
     tolerance: 50
   - name: 电报消息
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
-    type: select
+    输入: select
     proxies:
       - 节点选择
       - 自动选择
@@ -38,7 +38,7 @@ proxy-groups:
       - DIRECT
   - name: OpenAi
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bot.png
-    type: select
+    输入: select
     proxies:
       - 节点选择
       - 自动选择
@@ -53,7 +53,7 @@ proxy-groups:
       - DIRECT
   - name: AI-UNHK
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AI.png
-    type: select
+    输入: select
     include-all: true
     exclude-filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
     proxies:
@@ -68,7 +68,7 @@ proxy-groups:
       - DIRECT
   - name: 油管视频
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
-    type: select
+    输入: select
     proxies:
       - 节点选择
       - 自动选择
