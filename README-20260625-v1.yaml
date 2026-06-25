@@ -55,10 +55,8 @@ proxy-groups:
       - 韩国节点
       - 手动切换
 
-
   - name: OpenAi
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ChatGPT.png
-    type: select
     proxies:
       - 美国节点
       - AI-UNHK
@@ -102,7 +100,6 @@ proxy-groups:
       - 韩国节点
       - 手动切换
 
-
   - name: 奈飞视频
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     type: select
@@ -118,7 +115,6 @@ proxy-groups:
       - 美国节点
       - 韩国节点
       - 手动切换
-
 
   - name: 巴哈姆特
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png
@@ -263,7 +259,6 @@ proxy-groups:
       - 美国节点
       - 韩国节点
       - 手动切换
-
 
   - name: 网易音乐
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netease_Music.png
