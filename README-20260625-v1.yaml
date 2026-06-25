@@ -57,6 +57,7 @@ proxy-groups:
 
   - name: OpenAi
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ChatGPT.png
+    type: select
     proxies:
       - 美国节点
       - AI-UNHK
