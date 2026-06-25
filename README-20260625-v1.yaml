@@ -28,8 +28,9 @@ proxy-groups:
 
   - name: 优选节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
-    filter: (?i)优选
     type: select
+    include-all: true
+    filter: (?i)优选
 
   - name: 富途牛牛
     icon: https://www.futunn.com/favicon.ico
